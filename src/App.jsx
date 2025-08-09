@@ -73,7 +73,7 @@ function DetailModal({ pokemon, onClose }) {
       .then((d) => setDetails(d))
       .catch(() => setDetails(null))
       .finally(() => setLoading(false));
-  }, [pokemon]);
+  }, []);
 
   return (
     <AnimatePresence>
