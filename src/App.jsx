@@ -307,7 +307,7 @@ function MainApp() {
         })
         .catch(() => {});
     });
-  }, [allPokemons]);
+  }, []);
 
   function toggleFav(p) {
     setFavorites((prev) => {
